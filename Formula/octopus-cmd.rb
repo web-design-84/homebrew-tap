@@ -1,4 +1,5 @@
 class OctopusCmd < Formula
+  version '1.0.1'
   desc "Octopus is the easiest way to build a development environment for WordPress"
   homepage "https://github.com/web-design-84/octopus-cmd"
   url "https://github.com/web-design-84/octopus-cmd/archive/refs/tags/v1.0.1.tar.gz"
