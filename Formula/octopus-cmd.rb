@@ -1,7 +1,7 @@
 class OctopusCmd < Formula
   desc "Octopus is the easiest way to build a development environment for WordPress"
   homepage "https://github.com/web-design-84/octopus-cmd"
-  url "https://github.com/web-design-84/octopus-cmd/archive/refs/tags/v1.0.0.tar.gz"
+  url "https://github.com/web-design-84/octopus-cmd/archive/refs/tags/v1.0.1.tar.gz"
   sha256 "7dd6b2ea2480a1ecfe0d58affa9bcdcd7af05cc21039338117feb0f58f1ea2b6"
   license "MIT"
 
@@ -9,7 +9,7 @@ class OctopusCmd < Formula
 
   def install
     # system "./configure", *std_configure_args, "--disable-silent-rules"
-    bin.install "octopus", "inc/"
+    bin.install "octopus"
   end
 
   test do
