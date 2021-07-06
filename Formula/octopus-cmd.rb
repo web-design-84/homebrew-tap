@@ -9,7 +9,7 @@ class OctopusCmd < Formula
 
   def install
     # system "./configure", *std_configure_args, "--disable-silent-rules"
-    bin.install "octopus", "inc"
+    bin.install "octopus", "inc/"
   end
 
   test do
