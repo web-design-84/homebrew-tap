@@ -1,8 +1,8 @@
 class OctopusCmd < Formula
   desc "Octopus is the easiest way to build a development environment for WordPress"
   homepage "https://github.com/web-design-84/octopus-cmd"
-  url "https://github.com/web-design-84/octopus-cmd/archive/refs/tags/v1.1.1.tar.gz"
-  sha256 "771781b517d5d3d5cdbbcc844d579213b1c225d205cadea0f8765541060e2dd1"
+  url "https://github.com/web-design-84/octopus-cmd/archive/refs/tags/v1.1.2.tar.gz"
+  sha256 "fa6d3583575593b52ec373f602bb3405b2f0ea2282ecb2961a4e76a26eb62832"
   license "MIT"
 
   bottle :unneeded
