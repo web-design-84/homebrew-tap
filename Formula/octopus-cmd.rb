@@ -5,7 +5,7 @@ class OctopusCmd < Formula
   sha256 "e4300d8cc8e9618f55eedc8f5446dce03285912c19c5f260ee6c49fee5a1a113"
   license "MIT"
 
-  bottle :unneeded
+  # bottle :unneeded
 
   depends_on "cmake" => :build
 
